@@ -1,5 +1,9 @@
 This is a reproduction for https://github.com/jruby/jruby/issues/6689.
 
+To run with `jruby-9.2.13.0`, just call `vagrant up` and look at the logs.
+
+For `jruby-9.2.17.0`, edit the `Vagrantfile` and run again.
+
 Under Ubuntu 20 LTS, with OpenJDK 8, and the latest stable version of RVM (1.29.12), jruby-9.2.13.0 and jruby-9.2.17.0 cannot be installed.
 
 ## Logs for JRuby 9.2.13.0
