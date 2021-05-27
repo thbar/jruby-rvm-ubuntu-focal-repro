@@ -8,5 +8,7 @@ Vagrant.configure(2) do |config|
 
     config.vm.provision :shell, path: "install-rvm.sh", args: "stable", privileged: false
     config.vm.provision :shell, path: "install-ruby.sh", args: "jruby-9.2.13.0", privileged: false
+    # NOTE: one can jump to 9.2.17.0 and see the same error
+    # config.vm.provision :shell, path: "install-ruby.sh", args: "jruby-9.2.17.0", privileged: false
   end
 end
